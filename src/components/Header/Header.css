@@ -1,0 +1,54 @@
+@font-face {
+    font-family:Banner ;
+    src: url(/public/Font/Banner-p7GrZ.otf);
+  }
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body, html{
+width: 100%;
+height: 100%;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    padding: 0 50px;
+    background-color: black;
+}
+.header-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-left img{
+    width:50px ;
+}
+a > span{
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family:'Banner';
+}
+a > span:hover{
+    color: #f6c800;
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .hide{
+        display: none;
+    }
+    .header{
+        padding: 0 15px;
+    }
+}

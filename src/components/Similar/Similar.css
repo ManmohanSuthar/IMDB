@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Banner;
+  src: url(/public/Font/Banner-p7GrZ.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.similar_main {
+  padding: 50px 50px;
+}
+.similar_main h1 {
+  margin-bottom: 10px;
+  color: #f6c800;
+  font-family: "Banner";
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .similar_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .poster_detail {
+    height: max-content;
+  }
+}

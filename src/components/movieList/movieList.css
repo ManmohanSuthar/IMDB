@@ -1,0 +1,29 @@
+@font-face {
+    font-family:Banner ;
+    src: url(/public/Font/Banner-p7GrZ.otf);
+  }
+
+
+.movie__list {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.list__title {
+font-size: 1.75rem;
+padding: 60px 0 30px 0;
+color: #f6c800;
+font-family: 'list__title';
+}
+
+.list__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1000px){
+    .list__title{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,91 @@
+
+
+    @font-face {
+    font-family:Banner ;
+    src: url(/public/Font/Banner-p7GrZ.otf);
+  }
+
+.posterImage{
+    height: 500px;
+}
+
+.posterImage > img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.posterImage__overlay {
+    background: rgb(255,255,255);
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 188, 212, 0) 50%, rgba(0, 0, 0, 1) 100%);
+    opacity: 1;
+    transition: opacity .3s;
+}   
+
+.posterImage__overlay:hover {
+    opacity: 1;
+}
+
+.posterImage__title {
+    font-weight: 900;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+    color: #f6c800;
+    font-family: 'Banner';
+    letter-spacing: 0.5rem;
+}
+
+.posterImage__runtime {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.posterImage__rating {
+    margin-left: 3rem;
+}
+
+.posterImage__description {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+}
+
+
+  
+  @media only screen and (max-width: 1000px){
+    .posterImage img{
+        width: 100%;
+        object-fit: cover;
+        height: 500px;
+        object-position: center;
+    }
+    .posterImage__title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .posterImage__runtime{
+        display: none;
+    }
+    .posterImage__description{
+        display: none;
+    }
+    .posterImage__overlay{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+  }
