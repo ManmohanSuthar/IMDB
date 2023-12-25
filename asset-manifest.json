@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/IMDB/static/css/main.dfd9f123.css",
+    "main.js": "/IMDB/static/js/main.e6d01bb7.js",
+    "static/media/Banner-p7GrZ.otf": "/IMDB/static/media/Banner-p7GrZ.c0dd13c6eb040ad491dd.otf",
+    "index.html": "/IMDB/index.html",
+    "main.dfd9f123.css.map": "/IMDB/static/css/main.dfd9f123.css.map",
+    "main.e6d01bb7.js.map": "/IMDB/static/js/main.e6d01bb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfd9f123.css",
+    "static/js/main.e6d01bb7.js"
+  ]
+}
