@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/IMDB/static/css/main.dfd9f123.css",
-    "main.js": "/IMDB/static/js/main.aa7977fa.js",
+    "main.js": "/IMDB/static/js/main.5264ef36.js",
     "static/media/Banner-p7GrZ.otf": "/IMDB/static/media/Banner-p7GrZ.c0dd13c6eb040ad491dd.otf",
     "index.html": "/IMDB/index.html",
     "main.dfd9f123.css.map": "/IMDB/static/css/main.dfd9f123.css.map",
-    "main.aa7977fa.js.map": "/IMDB/static/js/main.aa7977fa.js.map"
+    "main.5264ef36.js.map": "/IMDB/static/js/main.5264ef36.js.map"
   },
   "entrypoints": [
     "static/css/main.dfd9f123.css",
-    "static/js/main.aa7977fa.js"
+    "static/js/main.5264ef36.js"
   ]
 }
